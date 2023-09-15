@@ -2,42 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="%PUBLIC_URL%/assets/logo.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <title>Seken</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+
+    <!-- Tailwind & Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      "primary": '#189877',
+                      "dark": '#093731',
+                      "lime": '#CEEF01',
+                      "soft": '#DFECEA',
+                  },
+              },
+              fontFamily: {
+                'primary': 'Inter',
+              },
+          }
+      }
+    </script>
   </head>
-  <body>
+  <body class="text-dark bg-soft">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <nav class="bg-dark sticky top-0 border-gray-200 px-6 sm:px-4 py-1">
+      <div class="container flex flex-wrap justify-between items-center mx-auto w-full">
+        <a href="%PUBLIC_URL%/" class="flex items-center hover:text-lime hover:">
+          <svg class="fill-lime mr-2" width="40" height="57" viewBox="0 0 75 57" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M72.6819 52.3657C70.5893 55.3829 68.0201 56.0159 66.2342 56.0159H9.62513C7.56069 56.0159 5.61068 55.3941 3.98763 54.2177C2.48467 53.1156 1.32877 51.6062 0.656634 49.8679C-0.0154989 48.1296 -0.17574 46.2352 0.194863 44.4088C0.600298 42.4431 1.62631 40.6742 3.15126 39.2813L7.18468 35.6115C7.80687 35.0454 8.62844 34.7497 9.46868 34.7894C10.3089 34.829 11.099 35.2009 11.6651 35.823C12.2311 36.4452 12.5269 37.2668 12.4872 38.107C12.4475 38.9473 12.0757 39.7373 11.4535 40.3034L7.42009 43.9726C5.87879 45.3753 6.3797 47.0872 6.56999 47.5783C6.76028 48.0694 7.54238 49.6709 9.62578 49.6709H66.2342C66.4127 49.6709 66.8299 49.6709 67.4708 48.7476C67.8634 48.1854 68.1299 47.5451 68.2519 46.8703C68.3739 46.1956 68.3486 45.5024 68.1777 44.8384C68.0072 44.1516 67.6922 43.509 67.2538 42.9536C66.8154 42.3981 66.2636 41.9425 65.6352 41.6172L48.5174 32.7617C48.5265 32.9731 48.5311 33.187 48.5311 33.4032C48.5311 37.1266 47.2045 40.0863 44.5513 42.2822C41.8981 44.4781 38.3279 45.5769 33.8407 45.5786C29.6991 45.5786 26.5064 44.4857 24.2626 42.2999C22.0188 40.114 20.8225 36.9346 20.6739 32.7617H20.6863C20.692 32.3108 20.7864 31.8655 20.9641 31.4512C21.1419 31.0368 21.3995 30.6615 21.7223 30.3468C22.0451 30.032 22.4268 29.7838 22.8455 29.6165C23.2642 29.4493 23.7117 29.3661 24.1626 29.3717C24.6134 29.3774 25.0587 29.4718 25.4731 29.6496C25.8874 29.8273 26.2627 30.085 26.5775 30.4078C26.8923 30.7306 27.1404 31.1122 27.3077 31.5309C27.475 31.9496 27.5582 32.3972 27.5525 32.848C27.5525 32.9343 27.5492 33.0193 27.5434 33.1043C27.5621 35.2366 28.124 36.8952 29.2292 38.0801C30.3522 39.2863 31.9148 39.8895 33.9172 39.8895C36.1902 39.8895 38.0498 39.2687 39.4958 38.0271C40.9419 36.7855 41.6649 35.2204 41.6649 33.3319C41.6649 31.7189 41.1707 30.3589 40.1824 29.2521C39.1941 28.1452 36.7491 26.6488 32.8474 24.7629L29.7451 23.2379C26.8617 21.8729 24.7058 20.2222 23.2771 18.2857C21.8485 16.3492 21.1334 14.1146 21.1316 11.5817C21.1316 8.13288 22.4198 5.3404 24.9963 3.20424C27.5728 1.06808 30.9545 0 35.1413 0C38.9075 0 41.9374 1.01293 44.2309 3.03879C46.4176 4.97267 47.6849 7.61366 48.0328 10.9618C48.0686 11.1491 48.0866 11.3393 48.0864 11.53C48.0864 13.3035 46.5556 14.7408 44.6671 14.7408C42.7785 14.7408 41.2477 13.3022 41.2477 11.53C41.2477 11.4326 41.2523 11.3338 41.2614 11.2403C41.1258 9.54492 40.495 8.20546 39.369 7.22196C38.1993 6.20009 36.629 5.68916 34.6581 5.68916C32.7115 5.68916 31.104 6.23584 29.8354 7.3292C28.5668 8.42257 27.9324 9.78949 27.9324 11.43C27.9324 12.8215 28.4743 14.0703 29.5581 15.1763C30.6419 16.2823 32.6496 17.5557 35.5814 18.9965L38.0951 20.1873C38.9914 20.6294 39.8258 21.0749 40.5983 21.524L68.5497 35.9855C69.9792 36.725 71.2345 37.7607 72.232 39.0236C73.2295 40.2866 73.9462 41.7477 74.3344 43.3095C74.7187 44.8497 74.7701 46.4542 74.4851 48.0159C74.2002 49.5776 73.5854 51.0605 72.6819 52.3657Z"/>
+          </svg>            
+          <span class="self-center text-xl text-lime font-bold whitespace-nowrap">SEKEN</span>
+        </a>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        <button id="hamburgerNavbar" data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6 fill-lime" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+    
+        <!-- Main Navbar -->
+        <div class="hidden w-full md:block md:order-1 md:w-auto text-white" id="mobile-menu">
+          <ul class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            <li>
+              <a href="%PUBLIC_URL%/" class="block border md:border-0 py-4 my-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-lime md:p-0  ">Home</a>
+            </li>
+            <li>
+              <a href="%PUBLIC_URL%/about" class="block border md:border-0 py-4 my-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-lime md:p-0  ">About Us</a>
+            </li>
+            <li>
+              <a href="%PUBLIC_URL%/features" class="block border md:border-0 py-4 my-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-lime md:p-0  ">Features</a>
+            </li>
+            <li>
+              <a href="%PUBLIC_URL%/testimony" class="block border md:border-0 py-4 my-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-lime md:p-0  ">Testimony</a>
+            </li>
+            <li>
+              <a href="%PUBLIC_URL%/contact" class="block border md:border-0 py-4 my-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-lime md:p-0  ">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="root" class="h-full place-content-center justify-center items-center text-center p-0 my-auto"></div>
   </body>
+
+  <script>
+    const hamburgerNavbar = document.querySelector("#hamburgerNavbar")
+
+    if (hamburgerNavbar !== null) {
+        hamburgerNavbar.addEventListener('click', () => {
+            const navbarItems = document.querySelector("#mobile-menu")
+            navbarItems.classList.toggle("hidden") 
+        })
+    }
+    </script>
 </html>

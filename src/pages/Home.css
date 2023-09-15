@@ -1,0 +1,42 @@
+/* Home.css */
+
+/* Center the carousel container */
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+  }
+  
+  /* Style the arrow buttons */
+  .carousel-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+    position: absolute;
+    top: 50%; /* Pusatkan secara vertikal */
+    transform: translateY(-50%); /* Geser ke atas setengah dari tinggi tombol */
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-arrow.prev {
+    left: 0;
+  }
+  
+  .carousel-arrow.next {
+    right: 0;
+  }
+  

@@ -9,8 +9,8 @@ const Home = () => {
       <div className="carousel-container">
         <Carousel
           showThumbs={true}
-          width="900px"
-          height="600px"
+          width="1260px"
+          height="930px"
           autoPlay={true}
           interval={3000}
           infiniteLoop={true}
@@ -41,6 +41,9 @@ const Home = () => {
             <img src="./Carousel/hire.png" alt="Image 3" />
           </div>
         </Carousel>
+      </div>
+      <div className='education'>
+          <h1 className='title'>Manfaat Membeli Pakaian Bekas</h1>
       </div>
     </div>
   );

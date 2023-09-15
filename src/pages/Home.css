@@ -8,6 +8,7 @@
     justify-content: center;
     height: 500px;
     position: relative;
+    margin-top: 123px;
   }
   
   /* Style the arrow buttons */
@@ -39,4 +40,20 @@
   .carousel-arrow.next {
     right: 0;
   }
-  
+  .education {
+    background-color: #50B197; /* Warna latar belakang yang berbeda */
+    padding: 200px; /* Tambahkan padding jika diperlukan */
+    text-align: center; /* Sesuaikan dengan tata letak Anda */
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+  }
+  .title {
+    font-weight: 600; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 25%; /* Mengatur posisi vertikal ke tengah */
+    left: 50%; /* Mengatur posisi horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Mengatur judul ke tengah secara horizontal dan vertikal */
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+  }

@@ -49,19 +49,19 @@ const Home = () => {
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 1.png" alt="Visi 1"/>
-              <p>EDUCATE</p>
+              <p>EDUKASI</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 2.png" alt="Visi 2"/>
-              <p>MONEY</p>
+              <p>EKONOMIS</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 3.png" alt="Visi 3"/>
-              <p>PROTECT</p>
+              <p>EKOLOGIS</p>
             </div>
             </div>
            </div>
@@ -106,7 +106,7 @@ const Home = () => {
   </div>
   <div className='youtube'>
     <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <h1 className='title'>Our Videos</h1>
+        <h1 className='title'>Video Kami</h1>
     </div>
     <div style={{ textAlign: 'center' }}>
         <video width="900" height="560" controls style={{ marginTop: '120px' }}>

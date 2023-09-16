@@ -48,19 +48,19 @@ const Home = () => {
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 1.png" alt="Visi 1"/>
-              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EDUKASI</p>
+              <p style={{ fontFamily:'Inter'}}>EDUKASI</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 2.png" alt="Visi 2"/>
-              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EKONOMIS</p>
+              <p style={{fontFamily:'Inter'}}>EKONOMIS</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 3.png" alt="Visi 3"/>
-              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EKOLOGIS</p>
+              <p style={{fontFamily:'Inter'}}>EKOLOGIS</p>
             </div>
             </div>
            </div>

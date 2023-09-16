@@ -1,0 +1,168 @@
+/* Home.css */
+
+/* Center the carousel container */
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    margin-top: 123px;
+  }
+  
+  /* Style the arrow buttons */
+  .carousel-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+    position: absolute;
+    top: 50%; /* Pusatkan secara vertikal */
+    transform: translateY(-50%); /* Geser ke atas setengah dari tinggi tombol */
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-arrow.prev {
+    left: 0;
+  }
+  
+  .carousel-arrow.next {
+    right: 0;
+  }
+  .vision {
+    background-color: #50B197; 
+    padding: 200px; 
+    text-align: center; 
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+  }
+  .title {
+    font-weight: 600; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 25%; /* Mengatur posisi vertikal ke tengah */
+    left: 50%; /* Mengatur posisi horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Mengatur judul ke tengah secara horizontal dan vertikal */
+    font-size: 60px;
+    font-family: primary;
+  }
+  .column {
+    text-align: center;
+    color: white;
+  }
+  .vision-cards {
+    display: flex;
+    justify-content: space-around; /* Mengatur jarak antara kartu */
+  }
+  
+  .vision-card {
+    flex: 1;
+    margin: 28px;
+    justify-content: space-around; 
+    align-items: center;
+    display: flex;
+    background-color: #DFECEA;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: primary;
+    border-radius: 5px;
+    color: #50B197;
+    flex: 0 0 calc(40% - 80px); /* Mengatur lebar kartu dan memberikan jarak */
+    margin-top:64px; /* Memberikan jarak horizontal di antara kartu */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.6);
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  /* Untuk memberikan jarak di sisi kanan kartu terakhir */
+  .gambar-lingkaran {
+    text-align: center;
+  }
+  
+  .gambar-lingkaran img {
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    width: 100px; /* Menyesuaikan ukuran gambar sesuai kebutuhan */
+  }
+  .vision-card:hover {
+    transform: translateY(-16px); /* Bergerak ke atas sejauh 5px saat dihover */
+  }
+  
+  /* Kembalikan transformasi ke posisi awal saat tidak dihover */
+  .vision-card:not(:hover) {
+    transform: translateY(0);
+  }
+  .education {
+    padding: 100px; 
+    text-align: center; 
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .image {
+    flex: 1; /* Memanfaatkan ruang yang tersedia */
+    text-align: left; /* Menyelaraskan gambar ke kiri */
+  }
+  
+  .text {
+    flex: 1; /* Memanfaatkan ruang yang tersedia */
+    padding: 20px; /* Menambahkan padding sesuai kebutuhan Anda */
+    text-align: right; /* Menyelaraskan teks ke kanan */
+  }
+  .benefit{
+    font-weight: 250; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 25%; /* Mengatur posisi vertikal ke tengah */
+    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    font-size: 30px;
+    font-family: primary;
+  }
+  .berikut{
+    font-weight: 150; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 35%; /* Mengatur posisi vertikal ke tengah */
+    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    font-size: 16px;
+    font-family: primary;
+    display: flex;
+    justify-content: space-between;
+  }
+.youtube{
+  background-color: #50B197; 
+    padding: 200px; 
+    text-align: center; 
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

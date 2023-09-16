@@ -114,21 +114,6 @@ const Home = () => {
         </video>
     </div>
 </div>
-<div className='footer' style={{ height: '12px', paddingTop: '0', paddingBottom: '0', backgroundColor:"#093731"}}>
-      <div className='team-info'style={{backgroundColor:"#093731", color:"#DFECEA"}}>
-        <p style={{fontFamily:'primary',fontSize:'20px', fontWeight:'bold', textAlign:'left', marginLeft:'40px',color:"#093731"}}>"</p>
-        <p style={{fontFamily:'primary',fontSize:'20px', fontWeight:'bold', textAlign:'left', marginLeft:'40px'}}>Made By : Pancong</p>
-        <p style={{fontFamily:'primary', textAlign:'left',marginLeft:'40px', marginTop:'4px'}}>Alicia Kirana Utomo</p>
-        <p style={{fontFamily:'primary', textAlign:'left', marginLeft:'40px', marginTop:'4px'}}>Alvin Widi Nugroho</p>
-        <p style={{fontFamily:'primary', textAlign:'left', marginLeft:'40px', marginTop:'4px'}}>Mathilda Dellanova</p>
-      </div>
-      <div className='social-icons' style={{ textAlign: 'right', backgroundColor:"#093731" }}>
-        <SocialIcon href='https://youtu.be/dGpAaDeyjrs' url="www.youtube.com" style={{ marginRight: '12px', marginBottom:'12px' }} />
-        <SocialIcon href="https://www.instagram.com/" url="www.instagram.com" style={{ marginRight: '12px', marginBottom:'12px'}} />
-        <SocialIcon href="https://twitter.com/?lang=id" url="www.twitter.com" style={{ marginRight: '20px', marginBottom:'12px'}} />
-</div>
-
-    </div>
 </div>
 
   );

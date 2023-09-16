@@ -43,7 +43,27 @@ const Home = () => {
         </Carousel>
       </div>
       <div className='education'>
-          <h1 className='title'>Manfaat Membeli Pakaian Bekas</h1>
+          <h1 className='title'>Visi Kami</h1>
+           <div className='vision-cards'>
+            <div className='vision-card'>
+            <div class="gambar-lingkaran">
+              <img src="./Carousel/visi 1.png" alt="Visi 1"/>
+              <p>EDUCATE</p>
+            </div>
+            </div>
+            <div className='vision-card'>
+            <div class="gambar-lingkaran">
+              <img src="./Carousel/visi 2.png" alt="Visi 2"/>
+              <p>MONEY</p>
+            </div>
+            </div>
+            <div className='vision-card'>
+            <div class="gambar-lingkaran">
+              <img src="./Carousel/visi 3.png" alt="Visi 3"/>
+              <p>PROTECT</p>
+            </div>
+            </div>
+           </div>
       </div>
     </div>
   );

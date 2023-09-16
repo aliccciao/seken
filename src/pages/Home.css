@@ -47,14 +47,16 @@
     position: relative;
   }
   .title {
+    font-family: "Inter";
     font-weight: 600; /* Untuk membuat huruf lebih tebal */
     position: absolute; /* Menggunakan posisi absolute untuk judul */
     top: 25%; /* Mengatur posisi vertikal ke tengah */
     left: 50%; /* Mengatur posisi horizontal ke tengah */
     transform: translate(-50%, -50%); /* Mengatur judul ke tengah secara horizontal dan vertikal */
     font-size: 60px;
-    font-family: primary;
-    color: #CEEF01
+    font-weight: bold;
+    color:"#CEEF01",
+    
   }
   .column {
     text-align: center;
@@ -76,7 +78,7 @@
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    font-family: primary;
+    font-weight: bold;
     border-radius: 5px;
     color: #50B197;
     flex: 0 0 calc(40% - 80px); 
@@ -128,7 +130,7 @@
     top: 25%; 
     left: 58%; 
     font-size: 30px;
-    font-family: primary;
+    font-weight: bold;
   }
   .berikut{
     font-weight: 150; 
@@ -136,7 +138,7 @@
     top: 35%; 
     left: 58%; 
     font-size: 16px;
-    font-family: primary;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }

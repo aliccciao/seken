@@ -54,8 +54,8 @@ const About = () => {
       </div>
       <div className="Tim">
       <div className='vision'>
-          <h1 className='title'>Tim Kami</h1>
-          <p style={{color: "#DFECEA", marginTop:"100px"}}>
+          <h1 className='title'style={{color:'#CEEF01'}}>Tim Kami</h1>
+          <p style={{color: "#DFECEA", marginTop:"100px", fontFamily:"Inter"}}>
   Kami adalah kelompok individu yang bersemangat dan berbakat, terdiri dari tiga orang, dengan pengalaman yang beragam di bidang IT. Kami memahami bahwa setiap pelanggan adalah unik, dan kami berkomitmen untuk memberikan solusi yang disesuaikan dengan kebutuhan khusus Anda.
 </p>
            <div className='vision-cards'>

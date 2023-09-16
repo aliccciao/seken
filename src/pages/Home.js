@@ -117,7 +117,7 @@ const Home = () => {
 <div className='footer' style={{ height: '12px', paddingTop: '0', paddingBottom: '0'}}>
       <div className='team-info'style={{color:"#093731"}}>
         <p style={{fontFamily:'primary',fontSize:'20px', fontWeight:'bold', textAlign:'left', marginLeft:'40px',color:"#DFECEA"}}>"</p>
-        <p style={{fontFamily:'primary',fontSize:'20px', fontWeight:'bold', textAlign:'left', marginLeft:'40px'}}>MKarya : Pancong</p>
+        <p style={{fontFamily:'primary',fontSize:'20px', fontWeight:'bold', textAlign:'left', marginLeft:'40px'}}>Karya : Pancong</p>
         <p style={{fontFamily:'primary', textAlign:'left',marginLeft:'40px', marginTop:'4px'}}>Alicia Kirana Utomo</p>
         <p style={{fontFamily:'primary', textAlign:'left', marginLeft:'40px', marginTop:'4px'}}>Alvin Widi Nugroho</p>
         <p style={{fontFamily:'primary', textAlign:'left', marginLeft:'40px', marginTop:'4px'}}>Mathilda Dellanova</p>

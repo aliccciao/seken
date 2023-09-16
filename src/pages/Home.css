@@ -1,7 +1,3 @@
-/* Home.css */
-
-/* Center the carousel container */
-
 .carousel-container {
     display: flex;
     flex-direction: column;
@@ -44,9 +40,9 @@
   .vision {
     background-image: url('/public/Carousel/apa.png'); 
     background-size: cover;
-    padding: 200px; 
+    padding: 120px; 
     text-align: center; 
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
     position: relative;
   }
@@ -83,9 +79,9 @@
     font-family: primary;
     border-radius: 5px;
     color: #50B197;
-    flex: 0 0 calc(40% - 80px); /* Mengatur lebar kartu dan memberikan jarak */
-    margin-top:64px; /* Memberikan jarak horizontal di antara kartu */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 2);
+    flex: 0 0 calc(40% - 80px); 
+    margin-top:64px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 2.8);
     transition: transform 0.4s ease-in-out;
   }
   
@@ -95,15 +91,14 @@
   }
   
   .gambar-lingkaran img {
-    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
-    width: 100px; /* Menyesuaikan ukuran gambar sesuai kebutuhan */
+    border-radius: 50%; 
+    width: 100px; 
     
   }
   .vision-card:hover {
-    transform: translateY(-16px); /* Bergerak ke atas sejauh 5px saat dihover */
+    transform: translateY(-20px); 
   }
   
-  /* Kembalikan transformasi ke posisi awal saat tidak dihover */
   .vision-card:not(:hover) {
     transform: translateY(0);
   }
@@ -117,21 +112,21 @@
     margin-left: 40px;
   }
   .image {
-    flex: 1; /* Memanfaatkan ruang yang tersedia */
-    text-align: left; /* Menyelaraskan gambar ke kiri */
+    flex: 1; 
+    text-align: left; 
     
   }
   
   .text {
-    flex: 1; /* Memanfaatkan ruang yang tersedia */
-    padding: 20px; /* Menambahkan padding sesuai kebutuhan Anda */
-    text-align: right; /* Menyelaraskan teks ke kanan */
+    flex: 1; 
+    padding: 20px; 
+    text-align: right; 
   }
   .benefit{
-    font-weight: 250; /* Untuk membuat huruf lebih tebal */
-    position: absolute; /* Menggunakan posisi absolute untuk judul */
-    top: 25%; /* Mengatur posisi vertikal ke tengah */
-    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    font-weight: 250; 
+    position: absolute; 
+    top: 25%; 
+    left: 58%; 
     font-size: 30px;
     font-family: primary;
   }
@@ -139,7 +134,7 @@
     font-weight: 150; 
     position: absolute; 
     top: 35%; 
-    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    left: 58%; 
     font-size: 16px;
     font-family: primary;
     display: flex;
@@ -155,19 +150,3 @@
     position: relative;
     margin-bottom: 0px;
 }
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  

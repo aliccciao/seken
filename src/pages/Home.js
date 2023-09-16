@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
-import './Home.css'; // Import your custom CSS file for styling
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+import './Home.css'; 
 import { SocialIcon } from 'react-social-icons'
 
 const Home = () => {
@@ -123,7 +123,7 @@ const Home = () => {
         <p style={{fontFamily:'primary', textAlign:'left', marginLeft:'40px', marginTop:'4px'}}>Mathilda Dellanova</p>
       </div>
       <div className='social-icons' style={{ textAlign: 'right' }}>
-        <SocialIcon href='https://youtu.be/dGpAaDeyjrs' url="www.youtube.com" style={{ marginRight: '12px', marginBottom:'12px' }} />
+        <SocialIcon href='https://youtu.be/dGpAaDeyjrs' url="www.youtube.com" style={{ marginRight: '12px', marginBottom:'12px'}} />
         <SocialIcon href="https://www.instagram.com/" url="www.instagram.com" style={{ marginRight: '12px', marginBottom:'12px'}} />
         <SocialIcon href="https://twitter.com/?lang=id" url="www.twitter.com" style={{ marginRight: '20px', marginBottom:'12px'}} />
 </div>

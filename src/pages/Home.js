@@ -1,8 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
-import './Home.css'; // Import your custom CSS file for styling
-import { SocialIcon } from 'react-social-icons'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+import './Home.css'; 
 
 const Home = () => {
   return (
@@ -44,24 +43,24 @@ const Home = () => {
         </Carousel>
       </div>
       <div className='vision'>
-          <h1 className='title'>Visi Kami</h1>
+          <h1 className='title' style={{color:'#CEEF01'}}>Visi Kami</h1>
            <div className='vision-cards'>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 1.png" alt="Visi 1"/>
-              <p>EDUKASI</p>
+              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EDUKASI</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 2.png" alt="Visi 2"/>
-              <p>EKONOMIS</p>
+              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EKONOMIS</p>
             </div>
             </div>
             <div className='vision-card'>
             <div class="gambar-lingkaran">
               <img src="./Carousel/visi 3.png" alt="Visi 3"/>
-              <p>EKOLOGIS</p>
+              <p style={{color:'#CEEF01', fontFamily:'Inter'}}>EKOLOGIS</p>
             </div>
             </div>
            </div>
@@ -71,7 +70,7 @@ const Home = () => {
     <img src="./Carousel/edu.png" alt="Edu"/>
   </div>
   <div className='text'>
-    <div className="benefit">Manfaat Membeli Pakaian Bekas</div>
+    <div className="benefit" style={{fontFamily:'Inter'}}>Manfaat Membeli Pakaian Bekas</div>
     <div className='berikut'>
     <div>
     <div style={{ marginBottom: '12px', marginTop:'30px' }}>
@@ -83,19 +82,19 @@ const Home = () => {
 <div style={{ marginBottom: '12px' }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src='/Carousel/cek.png' alt='Gambar Kolom 1' style={{ width: '34px', height: '33px', marginRight: '8px' }} />
-        <p style={{ textAlign: 'left', margin: '0' }}>Mengurangi dampak polusi lingkungan akibat produksi pakaian</p>
+        <p style={{ textAlign: 'left', margin: '0',fontFamily:'Inter'}}>Mengurangi dampak polusi lingkungan akibat produksi pakaian</p>
     </div>
 </div>
 <div style={{ marginBottom: '12px' }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src='/Carousel/cek.png' alt='Gambar Kolom 1' style={{ width: '34px', height: '33px', marginRight: '8px' }} />
-        <p style={{ textAlign: 'left', margin: '0' }}>Mendukung gerakan keberlanjutan</p>
+        <p style={{ textAlign: 'left', margin: '0', fontFamily:'Inter'}}>Mendukung gerakan keberlanjutan</p>
     </div>
 </div>
 <div style={{ marginBottom: '12px' }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src='/Carousel/cek.png' alt='Gambar Kolom 1' style={{ width: '34px', height: '33px', marginRight: '8px' }} />
-        <p style={{ textAlign: 'left', margin: '0' }}>Varian yang unik dan beragam</p>
+        <p style={{ textAlign: 'left', margin: '0', fontFamily:'Inter'}}>Varian yang unik dan beragam</p>
     </div>
 </div>
 
@@ -106,7 +105,7 @@ const Home = () => {
   </div>
   <div className='youtube'>
     <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <h1 className='title'>Video Kami</h1>
+        <h1 className='title' style={{color:'#CEEF01', fontFamily:"Inter"}}>Video Kami</h1>
     </div>
     <div style={{ textAlign: 'center' }}>
         <video width="900" height="560" controls style={{ marginTop: '120px' }}>
@@ -115,7 +114,6 @@ const Home = () => {
     </div>
 </div>
 </div>
-
   );
 };
 

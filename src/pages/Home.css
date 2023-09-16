@@ -57,8 +57,7 @@
     left: 50%; /* Mengatur posisi horizontal ke tengah */
     transform: translate(-50%, -50%); /* Mengatur judul ke tengah secara horizontal dan vertikal */
     font-size: 60px;
-    font-family: primary;
-    color: #CEEF01
+    font-weight: bold;
   }
   .column {
     text-align: center;
@@ -80,7 +79,7 @@
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    font-family: primary;
+    font-weight: bold;
     border-radius: 5px;
     color: #50B197;
     flex: 0 0 calc(40% - 80px); /* Mengatur lebar kartu dan memberikan jarak */
@@ -133,7 +132,7 @@
     top: 25%; /* Mengatur posisi vertikal ke tengah */
     left: 58%; /* Mengatur posisi horizontal ke tengah */
     font-size: 30px;
-    font-family: primary;
+    font-weight: bold;
   }
   .berikut{
     font-weight: 150; 
@@ -141,7 +140,7 @@
     top: 35%; 
     left: 58%; /* Mengatur posisi horizontal ke tengah */
     font-size: 16px;
-    font-family: primary;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }

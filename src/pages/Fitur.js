@@ -11,10 +11,9 @@ import bakground1 from './images/background1.png'
 const Fitur = () => {
     return (
         <div className="Fitur">
-            {/* TODO : Fitur */}
-            <div className="w-[1440px] h-[3867px] relative bg-teal-950">
-    <img className="w-[1440px] h-[3243px] left-0 top-0 absolute" src={bakground1} />
-    <div className="left-[127px] top-[111px] absolute flex-col justify-start items-center gap-[203px] inline-flex">
+            <div className="h-[3867px] relative bg-teal-950">
+    <img className="w-full h-[3243px] left-0 top-0 absolute" src={bakground1} />
+    <div className="left-[127px] top-[111px] absolute flex-col justify-center items-center gap-[203px] inline-flex">
         <div className="flex-col justify-start items-center gap-[100px] flex">
             <div className="flex-col justify-start items-center gap-[19px] flex">
                 <div className="text-slate-200 text-[64px] font-bold font-['Inter']">Berbagai Fitur Menarik</div>

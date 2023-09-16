@@ -1,6 +1,7 @@
 /* Home.css */
 
 /* Center the carousel container */
+
 .carousel-container {
     display: flex;
     flex-direction: column;
@@ -40,10 +41,10 @@
   .carousel-arrow.next {
     right: 0;
   }
-  .education {
-    background-color: #50B197; /* Warna latar belakang yang berbeda */
-    padding: 200px; /* Tambahkan padding jika diperlukan */
-    text-align: center; /* Sesuaikan dengan tata letak Anda */
+  .vision {
+    background-color: #50B197; 
+    padding: 200px; 
+    text-align: center; 
     margin-top: 200px;
     text-align: center;
     position: relative;
@@ -103,6 +104,60 @@
   .vision-card:not(:hover) {
     transform: translateY(0);
   }
+  .education {
+    padding: 100px; 
+    text-align: center; 
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .image {
+    flex: 1; /* Memanfaatkan ruang yang tersedia */
+    text-align: left; /* Menyelaraskan gambar ke kiri */
+  }
+  
+  .text {
+    flex: 1; /* Memanfaatkan ruang yang tersedia */
+    padding: 20px; /* Menambahkan padding sesuai kebutuhan Anda */
+    text-align: right; /* Menyelaraskan teks ke kanan */
+  }
+  .benefit{
+    font-weight: 250; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 25%; /* Mengatur posisi vertikal ke tengah */
+    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    font-size: 30px;
+    font-family: primary;
+  }
+  .berikut{
+    font-weight: 150; /* Untuk membuat huruf lebih tebal */
+    position: absolute; /* Menggunakan posisi absolute untuk judul */
+    top: 35%; /* Mengatur posisi vertikal ke tengah */
+    left: 58%; /* Mengatur posisi horizontal ke tengah */
+    font-size: 16px;
+    font-family: primary;
+    display: flex;
+    justify-content: space-between;
+  }
+.youtube{
+  background-color: #50B197; 
+    padding: 200px; 
+    text-align: center; 
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+  
+  
+  
+  
+  
+  
   
   
   
